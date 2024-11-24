@@ -13,4 +13,5 @@ spec:
         app.kubernetes.io/name: web-deploy
     spec:
       containers:
-        - name: nginx:latest
+        - name: nginx-test01
+          image: nginx:latest
